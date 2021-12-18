@@ -20,7 +20,7 @@ int main()
     /* Iterate over the data and write it out element by element. */
     for (row = 0; row < 4; row++) {
         //std::string st = "测试中文第二次";
-        worksheet_write_string(worksheet, row, col, "中文", NULL);
+        worksheet_write_string(worksheet, row, col, "中文测试", NULL);
         worksheet_write_number(worksheet, row, col + 1, row, NULL);
     }
 

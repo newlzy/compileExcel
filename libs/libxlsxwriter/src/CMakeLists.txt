@@ -18,13 +18,18 @@ message(STATUS "zpl_h==  " ${zpl_h})
 
 
 #------------ 获取目录下的所有文件名
-file(GLOB excelname *.c)
+file(GLOB excelname *.c) 
 list(APPEND GAME_SOURCE_MINE ${excelname})
-message(status "GAME_SOURCE_MINE 值：" ${GAME_SOURCE_MINE})
+message(STATUS "GAME_SOURCE_MINE 值：" ${GAME_SOURCE_MINE})
+
+#如果我们不但在当前目录需要引入，还需要在当前目录子目录引入了，这里就直接使用GLOB_RECURSE 递归
+file(GLOB_RECURSE thirdparty ${PROJECT_SOURCE_DIR}/libs/libxlsxwriter/third_party/*.c)
+message(STATUS "thirdparty 值：" ${thirdparty})
+
 
 #开始循环
 foreach(tempname ${excelname})
-	message(status "tempname 值：" ${tempname})
+	message(STATUS "tempname 值：" ${tempname})
 	
 endforeach() #结束循环
 
@@ -66,5 +71,5 @@ set(zlibsrc
 
 message(STATUS "src 值 --  ${src}")
 message(STATUS "zlibsrc 值 --  ${zlibsrc}")
-add_library(libxlsxwriter ${header} ${zpl_h} ${md5} ${zconf} ${GAME_SOURCE_MINE} ${src} ${zlibsrc})
+add_library(libxlsxwriter ${header} ${zpl_h} ${md5} ${zconf} ${GAME_SOURCE_MINE} ${thirdparty} ${zlibsrc})
 
