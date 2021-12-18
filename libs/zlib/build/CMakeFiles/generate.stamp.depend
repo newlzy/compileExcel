@@ -1,0 +1,27 @@
+# CMake generation dependency list for this directory.
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CMakeCInformation.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CMakeRCInformation.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CheckCSourceCompiles.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CheckFunctionExists.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CheckIncludeFile.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/CheckTypeSize.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/Compiler/MSVC-C.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/Platform/Windows-MSVC-C.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/Platform/Windows.cmake
+D:/Download/camk/cmake-3.20.5-windows-x86_64/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+D:/Download/zlib/zlib-1.2.11/CMakeLists.txt
+D:/Download/zlib/zlib-1.2.11/build/CMakeFiles/3.21.3/CMakeCCompiler.cmake
+D:/Download/zlib/zlib-1.2.11/build/CMakeFiles/3.21.3/CMakeRCCompiler.cmake
+D:/Download/zlib/zlib-1.2.11/build/CMakeFiles/3.21.3/CMakeSystem.cmake
+D:/Download/zlib/zlib-1.2.11/zconf.h.cmakein
+D:/Download/zlib/zlib-1.2.11/zlib.pc.cmakein
